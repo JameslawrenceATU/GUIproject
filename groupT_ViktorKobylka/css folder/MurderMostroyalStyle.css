@@ -1,0 +1,149 @@
+/* This css part was made by Dmytro Kupreiev g00425387 */
+/* adds fonts to the page*/
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+/* hiddening element under the button for case if button wouldn't upload for user */
+.hidden {
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+/* changes style of text */
+h1{
+    font-family: 'Sigmar', cursive;
+}
+/* changes styles of text */
+h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* changes style of text */
+th, td, p{
+    font-size: 18px; 
+}
+/* changes styles of text */
+h2,th, td, p{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+/* moving element , making border */
+#carouselExampleAutoplaying {
+    border: 2px solid black;
+    padding: 10px;
+}
+/* makes a border */
+#InformationBlock{
+    border: 2px solid black;
+}
+/* moving element */ 
+#TopOfSelected {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+/* changes styles of button */
+.back-button {
+    margin-top: 2px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: #F50000;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+/* changes color*/
+.back-button:hover {
+    background-color: #B90000;
+}
+/* moving element */ 
+#Price1 {
+    margin-top: 15px;
+}
+/* makes a border */
+.description-container {
+    border: 2px solid black;
+}
+
+/* REVIEW PART */
+
+/* changes style of forms */
+.form-hint {
+    text-decoration: none;
+    font-family: Open-Sans-regular, Open-Sans-bold ;
+    font-size: 13px;
+}
+/* fill 100% of container width */
+.form-hint {
+    width: 100%;
+}
+/* changes style of field */
+.field {
+    box-sizing: border-box;
+    padding-left: 18px;
+    width: 100%;
+    height: 47px;
+    font-size: 13px;
+    border: none;
+    background-color: #f4f7f6;
+    outline: none;
+}
+
+.field:focus {
+    border: 2px solid black;
+}
+/* changes style of forms */
+.form-field {
+    padding-top: 10px;
+    margin-top: 7px;
+    min-height: 100px;
+    max-height: 100px;
+    max-width: 100%;
+}
+/* stylyng a button */
+.review-button {
+    margin-top: 20px;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: gray;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+/* changes color of button when you put your curcor on it */
+.review-button:hover {
+    background-color: rgb(66, 66, 66);;
+}
+/* border, padding and margins */
+.review-container {
+    border: 2px solid black; 
+    margin-top: 10px;
+    padding: 5px;
+}
+/* making text area static*/
+.form-field-name {
+    height: 20px;
+    min-height: 50px;
+    max-height: 50px;
+}
+/* just border*/
+.finished-review-container {
+    border: 2px solid black; 
+    margin-top: 10px;
+}
+/* makes every letter uppercase*/
+.review-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+/* adding fonts */
+h3{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase; 
+}
+
